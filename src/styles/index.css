@@ -1,11 +1,30 @@
-/* 
+li:hover > .icono{
+    display: flex;
+    align-items: center;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.icono {
+    display: none;
+}
 
-*/
+.container {
+    width: 35%;
+}
+
+.hoja1 {
+ width: 98%;  
+ height: 0.35rem ;
+ border: 1px solid lightgray;
+ margin: 0 auto;
+
+}
+
+.hoja2 {
+ width: 96%;  
+ height: 0.35rem ;
+ border: 1px solid lightgray;
+ margin: 0 auto;
+}
+
+
+
